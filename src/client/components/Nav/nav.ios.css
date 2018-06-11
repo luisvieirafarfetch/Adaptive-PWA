@@ -1,0 +1,24 @@
+.nav {
+    top: 0px;
+    text-align: center;
+}
+
+.nav .title {
+    margin: 15px;
+    font-size: 18px;
+}
+
+.navIOS {
+    bottom: 0px;
+    display: flex;
+}
+
+.navIOS a {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.navIOS li {
+    flex-grow: 1;
+    margin-top: 14px;
+}

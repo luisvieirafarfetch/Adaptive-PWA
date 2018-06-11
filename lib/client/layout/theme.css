@@ -1,0 +1,14 @@
+:root {
+    --color-text: #000;
+    --color-bkg: #fff;
+}
+
+body {
+    color: var(--color-text);
+    background-color: var(--color-bkg);
+    margin: 0;
+    margin-top: 60px;
+    font-family: helvetica, sans-serif;
+    padding: 0;
+    text-align: center;
+}

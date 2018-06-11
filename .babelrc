@@ -1,0 +1,26 @@
+{
+    "presets": [
+        [
+            "babel-preset-env",
+            {
+                "targets": {
+                    "node": "8.0"
+                }
+            }
+        ]
+    ],
+    "env": {
+        "server": {
+            "plugins": [
+                [
+                    "css-modules-transform",
+                    {
+                        "generateScopedName": "[hash:6]",
+                        "extensions": [".css"]
+                    }
+                ]
+            ]
+        }
+    },
+    "plugins": ["transform-react-jsx"]
+}

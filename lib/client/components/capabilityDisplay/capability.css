@@ -1,0 +1,37 @@
+.display {
+    position: fixed;
+    width: 300px;
+    top: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: var(--color-bkg);
+    z-index: 3;
+    text-align: left;
+}
+
+.title {
+    margin: 0;
+}
+
+.display dl {
+    width: 100%;
+    display: inline-block;
+}
+
+.display dt {
+    float: left;
+    width: 50%;
+}
+
+.display dd {
+    float: right;
+    width: 50%;
+    margin: 0;
+}
+
+:global(.animate) {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}

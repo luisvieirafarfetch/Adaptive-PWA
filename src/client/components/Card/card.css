@@ -1,0 +1,20 @@
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    float: left;
+    width: 100%;
+    min-height: 600px;
+    margin: 10px;
+    background-color: var(--color-bkg);
+    z-index: 0;
+    flex-grow: 1;
+}
+
+@media (min-width: 900px) {
+    .card {
+        width: 20%;
+    }
+}
+.image {
+    width: 100%;
+}

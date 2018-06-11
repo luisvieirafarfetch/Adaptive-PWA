@@ -1,0 +1,10 @@
+.messageBox {
+    bottom: 20px;
+    position: fixed;
+    width: 100%;
+    float: left;
+    background-color: mediumspringgreen;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}

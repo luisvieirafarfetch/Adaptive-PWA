@@ -1,0 +1,143 @@
+.bbc8e7 {
+    height: 50px;
+    width: 100%;
+    list-style-type: none;
+    border: 1px solid #ddd;
+    margin: 0px;
+    position: fixed;
+    z-index: 1;
+    background-color: var(--color-bkg);
+}
+.bcff0b {
+    top: 0px;
+}
+
+.bcff0b li {
+    float: left;
+    margin: 14px;
+}
+
+.bcff0b a {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.bcff0b ._7e1599 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.cb5460 {
+    width: 100%;
+    height: 20px;
+    background-color: var(--color-text);
+    bottom: 0px;
+    position: relative;
+    margin-top: 30px;
+    position: fixed;
+}
+.e9e6a3 {
+    border: 1px solid #ddd;
+    padding: 20px;
+    float: left;
+    width: 100%;
+    min-height: 600px;
+    margin: 10px;
+    background-color: var(--color-bkg);
+    z-index: 0;
+    flex-grow: 1;
+}
+
+@media (min-width: 900px) {
+    .e9e6a3 {
+        width: 20%;
+    }
+}
+._333432 {
+    width: 100%;
+}
+.bb6608 {
+    width: 90%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+._74c4d7 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.abfdba {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border: 3px solid var(--color-bkg);
+    border-radius: 50%;
+    border-top-color: var(--color-text);
+    animation: _60c4b3 1s ease-in-out infinite;
+    -webkit-animation: _60c4b3 1s ease-in-out infinite;
+}
+@keyframes _60c4b3 {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes _60c4b3 {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+._66f7b7 {
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+.ba8fd8 {
+    position: fixed;
+    width: 300px;
+    top: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: var(--color-bkg);
+    z-index: 3;
+    text-align: left;
+}
+
+._730d6a {
+    margin: 0;
+}
+
+.ba8fd8 dl {
+    width: 100%;
+    display: inline-block;
+}
+
+.ba8fd8 dt {
+    float: left;
+    width: 50%;
+}
+
+.ba8fd8 dd {
+    float: right;
+    width: 50%;
+    margin: 0;
+}
+
+.animate {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+body {
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+    margin-top: 60px;
+    font-family: helvetica, sans-serif;
+    padding: 0;
+    text-align: center;
+}
+
+/*# sourceMappingURL=default.legacy.client.css.map*/
